@@ -51,3 +51,54 @@ A[User Login/Register] --> B[Donor Adds Details]
 B --> C[Patient Requests Blood]
 C --> D[Stored in Database]
 D --> E[Matching Donors Found]
+
+---
+
+## 📂 Project Structure  
+
+```bash
+blood-management-system/
+├── client/        # 🎨 Frontend (React)
+│   ├── public/
+│   │   └── images/    # 📸 Screenshots used in README
+│   └── src/
+├── server/        # ⚙️ Backend (Node + Express)
+├── database/      # 🗄️ MongoDB Models & Config
+└── README.md
+
+---
+
+##🚀 Installation & Setup
+**🔽 Clone Repository**
+git clone https://github.com/your-username/blood-management-system.git
+cd blood-management-system
+
+**⚙️ Backend Setup**
+cd server
+npm install
+npm start
+
+**🎨 Frontend Setup**
+cd client
+npm install
+npm start
+
+**🔑 Environment Variables**
+
+Create a .env file inside the server folder:
+
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+
+---
+
+##📸 Screenshots
+🏠 Home Page
+
+🔐 Login Page
+
+📝 Request Form
+
+📊 Dashboard
+
+⚠️ Make sure file names match your actual images
