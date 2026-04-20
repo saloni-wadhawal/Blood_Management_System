@@ -48,7 +48,7 @@ This platform provides a **smart and centralized system** to:
 ![Dashboard](client/public/images/dashboard.png)
 
 ### 📝 Add New Donor
-![Add_new_Donor](client/public/images/Add_new_donor.png)
+![Add new Donor](client/public/images/Add new donor.png)
 
 ### 📊 Find Donor
 ![findDonor](client/public/images/findDonor.png)
@@ -82,24 +82,25 @@ This platform provides a **smart and centralized system** to:
 ## 📂 Project Structure
 
 blood-management-system/
-├── client/        # 🎨 Frontend (React)
-│   ├── public/
-│   │   └── images/    # 📸 Screenshots used in README
-│   └── src/
-├── server/        # ⚙️ Backend (Node + Express)
-├── database/      # 🗄️ MongoDB Models & Config
-└── README.md
+│── client/        # Frontend (React)
+│── server/        # Backend (Node + Express)
+│── database/      # MongoDB connection & models
+│── README.md
+
 
 ---
 
-**🚀 Installation & Setup**
 
-### ▶️ Run Backend
+###🚀 Installation & Setup
+
+
+### ▶️ Clone the repository
 
 git clone https://github.com/your-username/blood-management-system.git
+
 cd blood-management-system
 
-### ▶️ Run Backend
+## ▶️ Run Backend
 
 ```bash
 cd server
@@ -107,7 +108,7 @@ npm install
 npm start
 ```
 
-### ▶️ Run Frontend
+## ▶️ Run Frontend
 
 ```bash
 cd client
