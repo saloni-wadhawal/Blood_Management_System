@@ -90,8 +90,7 @@ blood-management-system/
 
 ---
 
-
-###🚀 Installation & Setup
+🚀 Installation & Setup
 
 
 ### ▶️ Clone the repository
