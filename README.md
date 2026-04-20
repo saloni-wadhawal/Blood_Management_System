@@ -71,32 +71,34 @@ This platform provides a **smart and centralized system** to:
 
 ## ⚙️ How It Works  
 
-1.Users register/login into the system.
-2.Donors can add their details and availability.
-3.Patients or hospitals can submit blood requests.
-4.The system processes and stores requests in the database.
-5.Matching donors can be identified based on requirements.
+1.Users register/login into the system. <br>
+2.Donors can add their details and availability. <br>
+3.Patients or hospitals can submit blood requests. <br>
+4.The system processes and stores requests in the database. <br>
+5.Matching donors can be identified based on requirements. <br>
 
 ---
 
 ## 📂 Project Structure
 
 blood-management-system/   <br>
-│── client/        # Frontend (React)  <br>
-│── server/        # Backend (Node + Express) <br>
-│── database/      # MongoDB connection & models <br>
-│── README.md <br>
+│── client/                     # Frontend (React)  <br>
+│── server/                     # Backend (Node + Express) <br>
+│── database/                   # MongoDB connection & models <br>
+│── README.md                   <br>
 
 ---
 
 
-### 🚀 Installation & Setup
+## 🚀 Installation & Setup
 
 ### ▶️ Clone the repository
 
 git clone https://github.com/your-username/blood-management-system.git  <br>
 
+```bash
 cd blood-management-system
+```
 
 ### ▶️ Run Backend
 
@@ -116,7 +118,7 @@ npm start
 
 ---
 
-### 🔑 Environment Variables
+## 🔑 Environment Variables
 
 Create a .env file inside the server folder:  <br>
 
