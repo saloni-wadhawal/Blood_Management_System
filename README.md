@@ -51,10 +51,10 @@ This platform provides a **smart and centralized system** to:
 ![Add new Donor](client/public/images/Add%20new%20donor.png)
 
 ### 📊 Find Donor
-![findDonor](client/public/images/find donors.png)
+![findDonor](client/public/images/find%20donors.png)
 
 ### 📊 Request Donor
-![request Donor](client/public/images/request donor.png)
+![request Donor](client/public/images/request%20donor.png)
 
 ---
 
@@ -81,25 +81,24 @@ This platform provides a **smart and centralized system** to:
 
 ## 📂 Project Structure
 
-blood-management-system/
-│── client/        # Frontend (React)
-│── server/        # Backend (Node + Express)
-│── database/      # MongoDB connection & models
-│── README.md
-
+blood-management-system/   <br>
+│── client/        # Frontend (React)  <br>
+│── server/        # Backend (Node + Express) <br>
+│── database/      # MongoDB connection & models <br>
+│── README.md <br>
 
 ---
 
-🚀 Installation & Setup
 
+### 🚀 Installation & Setup
 
 ### ▶️ Clone the repository
 
-git clone https://github.com/your-username/blood-management-system.git
+git clone https://github.com/your-username/blood-management-system.git  <br>
 
 cd blood-management-system
 
-## ▶️ Run Backend
+### ▶️ Run Backend
 
 ```bash
 cd server
@@ -107,19 +106,19 @@ npm install
 npm start
 ```
 
-## ▶️ Run Frontend
+### ▶️ Run Frontend
 
 ```bash
 cd client
 npm install
 npm start
 ```
----
 
+---
 
 ### 🔑 Environment Variables
 
-Create a .env file inside the server folder:
+Create a .env file inside the server folder:  <br>
 
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
