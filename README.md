@@ -1,11 +1,5 @@
 # 🩸 Blood Management System
 
-![Status](https://img.shields.io/badge/Status-Active-success)
-![Frontend](https://img.shields.io/badge/Frontend-React-blue)
-![Backend](https://img.shields.io/badge/Backend-Node.js-green)
-![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 ---
 
 ## 🌐 Overview
@@ -47,65 +41,64 @@ This platform provides a **smart and centralized system** to:
 
 ## 🖼️ Screenshots
 
-### 🏠 Home Page
-![Home](client/public/images/home.png)
+### 🏠 Login Page
+![Login](client/public/images/Login.png)
 
-### 🔐 Login Page
-![Login](client/public/images/login.png)
-
-### 📝 Request Form
-![Request](client/public/images/request.png)
-
-### 📊 Dashboard
+### 🔐 Dashboard
 ![Dashboard](client/public/images/dashboard.png)
 
----
+### 📝 Add New Donor
+![Add New Donor](client/public/images/Add_new_donor.png)
 
-## 🛠️ Tech Stack
+### 📊 Find Donor
+![Find Donor](client/public/images/findDonor.png)
 
-### Frontend
-- HTML  
-- CSS  
-- JavaScript (React.js)  
-
-### Backend
-- Node.js  
-- Express.js  
-
-### Database
-- MongoDB  
+### 📊 Request Donor
+![Request Donor](client/public/images/request_Donor.png)
 
 ---
 
-## ⚙️ How It Works
+## 🛠️ Tech Stack  
 
-1. User submits a blood request  
-2. Backend processes the request  
-3. Data stored in database  
-4. Admin reviews the request  
-5. Admin accepts/rejects request  
-6. Status updates in real-time  
+| 💻 Technology | 🚀 Usage |
+|--------------|--------|
+| React.js | Frontend UI |
+| Node.js | Backend Runtime |
+| Express.js | API Handling |
+| MongoDB | Database |
 
 ---
+
+## ⚙️ How It Works  
+
+```mermaid
+graph TD;
+A[User Login/Register] --> B[Donor Adds Details]
+B --> C[Patient Requests Blood]
+C --> D[Stored in Database]
+D --> E[Matching Donors Found]
 
 ---
 
 ## 📂 Project Structure
 
-```
-Blood_Management_System/
-│── client/     # Frontend
-│── server/     # Backend
-│── README.md
-```
+blood-management-system/
+├── client/        # 🎨 Frontend (React)
+│   ├── public/
+│   │   └── images/    # 📸 Screenshots used in README
+│   └── src/
+├── server/        # ⚙️ Backend (Node + Express)
+├── database/      # 🗄️ MongoDB Models & Config
+└── README.md
 
 ---
 
 ## 🚀 Installation & Setup
 
-```bash
-git clone https://github.com/your-username/Blood_Management_System.git
-cd Blood_Management_System
+###🔽 Clone Repository
+
+git clone https://github.com/your-username/blood-management-system.git
+cd blood-management-system
 ```
 
 ### ▶️ Run Backend
@@ -124,20 +117,18 @@ npm install
 npm start
 ```
 
----
+###🔑 Environment Variables
 
-## 🚀 Future Improvements
+Create a .env file inside the server folder:
 
-* 🔔 Email/SMS Notifications
-* 📍 Location-based donor matching
-* 📱 Mobile App Version
-* 🤖 AI-based prediction system
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
 
 ---
 
 ## 👩‍💻 Author
 
-**Saloni Wadhawal**
+**Saloni Mangesh Wadhawal**
 🎓 Computer Engineering Student
 
 ---
