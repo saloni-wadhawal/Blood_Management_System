@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   @apply bg-gray-100 font-sans;
+}
+
+.dark {
+  background-color: #111827;
+  color: white;
+}
+
+.dark {
+  @apply bg-gray-900 text-white;
+}
+
+button {
+  @apply transition duration-200;
+}
