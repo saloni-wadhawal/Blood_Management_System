@@ -1,104 +1,149 @@
-# 🩸 Blood Management System  
-### 🚑 Smart Solution for Blood Donation & Requests  
+# 🩸 Blood Management System
 
-<p align="center">
-  <img src="https://img.shields.io/badge/MERN-Full%20Stack-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Backend-Node.js-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Database-MongoDB-brightgreen?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7TKsQ8UQK9yQv9HG/giphy.gif" width="300" />
-</p>
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Frontend](https://img.shields.io/badge/Frontend-React-blue)
+![Backend](https://img.shields.io/badge/Backend-Node.js-green)
+![Database](https://img.shields.io/badge/Database-MongoDB-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
-## 🌟 Overview  
+## 🌐 Overview
 
-A **modern full-stack web application** that connects **blood donors, patients, and hospitals** in real-time.  
-It simplifies the process of **finding and requesting blood**, helping save lives efficiently. ❤️  
+A **Full Stack Web Application** that helps manage blood donation and request processes efficiently.  
+It connects **donors, recipients, and admins** to ensure quick response in emergency situations.
 
 ---
 
-## ✨ Key Features  
+## 🚨 Problem Statement
 
-- 🔐 Secure Authentication (Login/Register)  
-- 🧑‍⚕️ Donor Registration & Management  
+Many patients face difficulty finding blood donors due to:
+
+- ❌ Poor coordination  
+- ❌ Delayed communication  
+- ❌ Lack of centralized system  
+
+---
+
+## 💡 Solution
+
+This platform provides a **smart and centralized system** to:
+
+- ✅ Request blood easily  
+- ✅ Manage requests via admin dashboard  
+- ✅ Improve real-time communication  
+
+---
+
+## ✨ Features
+
 - 📝 Blood Request System  
-- 📍 Location-Based Filtering  
-- ⚡ Fast API Handling  
-- 📊 Dashboard for managing data  
+- 📊 Admin Dashboard  
+- 🔄 Accept / Reject Requests  
+- ⚡ Real-time Updates  
+- 🎯 Clean & Responsive UI  
 
 ---
 
-## 🛠️ Tech Stack  
+## 🖼️ Screenshots
 
-| 💻 Technology | 🚀 Usage |
-|--------------|--------|
-| React.js | Frontend UI |
-| Node.js | Backend Runtime |
-| Express.js | API Handling |
-| MongoDB | Database |
+### 🏠 Home Page
+![Home](client/public/images/home.png)
 
----
+### 🔐 Login Page
+![Login](client/public/images/login.png)
 
-## ⚙️ How It Works  
+### 📝 Request Form
+![Request](client/public/images/request.png)
 
-```mermaid
-graph TD;
-A[User Login/Register] --> B[Donor Adds Details]
-B --> C[Patient Requests Blood]
-C --> D[Stored in Database]
-D --> E[Matching Donors Found]
+### 📊 Dashboard
+![Dashboard](client/public/images/dashboard.png)
 
 ---
 
-## 📂 Project Structure  
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML  
+- CSS  
+- JavaScript (React.js)  
+
+### Backend
+- Node.js  
+- Express.js  
+
+### Database
+- MongoDB  
+
+---
+
+## ⚙️ How It Works
+
+1. User submits a blood request  
+2. Backend processes the request  
+3. Data stored in database  
+4. Admin reviews the request  
+5. Admin accepts/rejects request  
+6. Status updates in real-time  
+
+---
+
+---
+
+## 📂 Project Structure
+
+```
+Blood_Management_System/
+│── client/     # Frontend
+│── server/     # Backend
+│── README.md
+```
+
+---
+
+## 🚀 Installation & Setup
 
 ```bash
-blood-management-system/
-├── client/        # 🎨 Frontend (React)
-│   ├── public/
-│   │   └── images/    # 📸 Screenshots used in README
-│   └── src/
-├── server/        # ⚙️ Backend (Node + Express)
-├── database/      # 🗄️ MongoDB Models & Config
-└── README.md
+git clone https://github.com/your-username/Blood_Management_System.git
+cd Blood_Management_System
+```
 
----
+### ▶️ Run Backend
 
-##🚀 Installation & Setup
-**🔽 Clone Repository**
-git clone https://github.com/your-username/blood-management-system.git
-cd blood-management-system
-
-**⚙️ Backend Setup**
+```bash
 cd server
 npm install
 npm start
+```
 
-**🎨 Frontend Setup**
+### ▶️ Run Frontend
+
+```bash
 cd client
 npm install
 npm start
-
-**🔑 Environment Variables**
-
-Create a .env file inside the server folder:
-
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
+```
 
 ---
 
-##📸 Screenshots
-🏠 Home Page
+## 🚀 Future Improvements
 
-🔐 Login Page
+* 🔔 Email/SMS Notifications
+* 📍 Location-based donor matching
+* 📱 Mobile App Version
+* 🤖 AI-based prediction system
 
-📝 Request Form
+---
 
-📊 Dashboard
+## 👩‍💻 Author
 
-⚠️ Make sure file names match your actual images
+**Saloni Wadhawal**
+🎓 Computer Engineering Student
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
