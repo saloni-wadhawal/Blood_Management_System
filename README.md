@@ -71,16 +71,15 @@ This platform provides a **smart and centralized system** to:
 
 ## ⚙️ How It Works  
 
-```mermaid
-graph TD;
-A[User Login/Register] --> B[Donor Adds Details]
-B --> C[Patient Requests Blood]
-C --> D[Stored in Database]
-D --> E[Matching Donors Found]
+1.Users register/login into the system.
+2.Donors can add their details and availability.
+3.Patients or hospitals can submit blood requests.
+4.The system processes and stores requests in the database.
+5.Matching donors can be identified based on requirements.
 
 ---
 
-**## 📂 Project Structure**
+## 📂 Project Structure
 
 blood-management-system/
 ├── client/        # 🎨 Frontend (React)
@@ -99,7 +98,6 @@ blood-management-system/
 
 git clone https://github.com/your-username/blood-management-system.git
 cd blood-management-system
-```
 
 ### ▶️ Run Backend
 
@@ -116,8 +114,10 @@ cd client
 npm install
 npm start
 ```
+---
 
-###🔑 Environment Variables
+
+### 🔑 Environment Variables
 
 Create a .env file inside the server folder:
 
@@ -133,8 +133,3 @@ PORT=5000
 
 ---
 
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
-
----
