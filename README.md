@@ -48,7 +48,7 @@ This platform provides a **smart and centralized system** to:
 ![Dashboard](client/public/images/dashboard.png)
 
 ### 📝 Add New Donor
-![Add new Donor](client/public/images/Add new donor.png)
+![Add new Donor](client/public/images/Add-new-donor.png)
 
 ### 📊 Find Donor
 ![findDonor](client/public/images/find donors.png)
