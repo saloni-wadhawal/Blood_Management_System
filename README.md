@@ -48,13 +48,13 @@ This platform provides a **smart and centralized system** to:
 ![Dashboard](client/public/images/dashboard.png)
 
 ### 📝 Add New Donor
-![Add New Donor](client/public/images/Add_new_donor.png)
+![Add_new_Donor](client/public/images/Add_new_donor.png)
 
 ### 📊 Find Donor
-![Find Donor](client/public/images/findDonor.png)
+![findDonor](client/public/images/findDonor.png)
 
 ### 📊 Request Donor
-![Request Donor](client/public/images/request_Donor.png)
+![request Donor](client/public/images/request_Donor.png)
 
 ---
 
@@ -80,7 +80,7 @@ D --> E[Matching Donors Found]
 
 ---
 
-## 📂 Project Structure
+**## 📂 Project Structure**
 
 blood-management-system/
 ├── client/        # 🎨 Frontend (React)
@@ -93,9 +93,9 @@ blood-management-system/
 
 ---
 
-## 🚀 Installation & Setup
+**🚀 Installation & Setup**
 
-###🔽 Clone Repository
+### ▶️ Run Backend
 
 git clone https://github.com/your-username/blood-management-system.git
 cd blood-management-system
